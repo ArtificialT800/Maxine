@@ -7,10 +7,10 @@ const { GoalFollow } = goals;
 const { GoalNear } = goals;
 
 const bot = mineflayer.createBot({
-    host: 'MaxArti.aternos.me',
-    port: 45017,
-    username: 'Maxine',
-    
+    host: process.argv[2],
+    port: process.argv[3],
+    username: process.argv[4],
+    password: process.argv[5]
 })
 
 bot.loadPlugin(pvp)
@@ -130,8 +130,8 @@ bot.on('autoeat_stopped', () => {
 });
 
 bot.on('health', () => {
-  console.log("Health: ", bot.health);
-  console.log("FoodPoints: ", bot.food);
+  //console.log("Maxine Health: ", bot.health);
+  //console.log("Maxine FoodPoints: ", bot.food);
   if (bot.health!==20 && bot.food!==20){
     bot.autoEat.eat()
 
