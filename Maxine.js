@@ -149,7 +149,7 @@ bot.on('physicTick', () => {
 
 
 bot.on('chat', (username, message) => {
-  if (message === 'fight me') {
+  if (message.toLowerCase() === 'fight me') {
     const player = bot.players[username];
     if (!player || !player.entity) {
       bot.chat("I can't see you.");
@@ -167,7 +167,7 @@ bot.on('chat', (username, message) => {
     bot.pvp.attack(player.entity);
   }
 
-  if (message === 'come here') {
+  if (message.toLowerCase() === 'come here') {
     const player = bot.players[username];
     if (player) {
       bot.chat("Okay, coming!");
