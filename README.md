@@ -29,20 +29,13 @@ To start Maxine, simply run the following command:
 node Maxine.js
 ```
 
-Maxine will automatically connect to your Minecraft server and be ready for PvP training.
+Maxine will automatically connect to your Minecraft server and be ready for PvP training. Once Maxine is running, you can type the `fight me` in the Minecraft chat. 
+`come here` would ask Maxine to come to your position.
 
-### Commands
-
-Once Maxine is running, you can use the following commands in the Minecraft chat to interact with her:
-
-- `fight me` - Starts a PvP session with Maxine.
-- `come here` - Calls Maxine to your position
-
-And much more!!
 
 ## Contributing
 
-Contributions to improve Maxine are welcomed. If you have an idea for a new feature or a bug fix, please open an issue or submit a pull request on GitHub.
+Contributions to improve Maxine are welcomed. If you have an idea for a new feature or a bug fix, please submit a pull request or open an issue on GitHub.
 
 ## License
 
