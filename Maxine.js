@@ -6,10 +6,10 @@ const autoeat = require('mineflayer-auto-eat')
 const { GoalFollow } = goals;
 const { GoalNear } = goals;
 
-const bot = mineflayer.createBot({
+const bot = mineflayer.createBot({            //Use your arguments
     host: process.argv[2],
     port: process.argv[3],
-    username: process.argv[4],
+    username: 'Maxine'
     password: process.argv[5]
 })
 
