@@ -9,7 +9,7 @@ const { GoalNear } = goals;
 const bot = mineflayer.createBot({            //Use your arguments
     host: process.argv[2],
     port: process.argv[3],
-    username: 'Maxine'
+    username: 'Maxine',
     password: process.argv[5]
 })
 
