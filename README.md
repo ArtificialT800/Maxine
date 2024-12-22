@@ -18,7 +18,7 @@ To get started with Maxine, you'll need to have Node.js installed on your comput
 2. Install the necessary dependencies:
 
    ```
-   npm install <libraries>
+   npm install
    ```
 
 ## Usage
